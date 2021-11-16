@@ -32,11 +32,11 @@ export const homeObjTwo = {
 
 }
 export const homeObjThree = {
-  lightBg: false,
+  lightBg: true,
   imgStart: 'start',
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
   buttonLabel: 'Get Started',
   description: 'We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.',
   headLine: 'Lead Generation Specialist for Online Businesses',

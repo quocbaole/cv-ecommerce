@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import GlobalStyle from "./globalStyles";
 import Home from "./pages/HomePage/Home";
+import { Footer } from "./components";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
